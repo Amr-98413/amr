@@ -1,0 +1,28 @@
+p::first-line{
+background: red;
+color: blue;
+font-size: 40px;
+
+
+}
+
+p::first-letter{
+background: yellow;
+color: black;
+
+}
+
+p::selection{
+background: black;
+
+}
+
+
+p::after{
+content: 'hallo';
+    background: rgb(158, 236, 13);
+font-size: 55px;
+color: black;
+
+}
+
